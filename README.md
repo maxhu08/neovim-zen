@@ -13,13 +13,13 @@ requirements:
 
 install required programs (for arch):
 
-```
+```bash
 paru -S kitty ttf-fira-code ttf-firacode-nerd nodejs npm ripgrep
 ```
 
 then setup by running these commands (Linux/MacOS):
 
-```shell
+```bash
 # backup old neovim config
 mv ~/.config/nvim{,.bak}
 
