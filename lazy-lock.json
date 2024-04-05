@@ -3,6 +3,7 @@
   "auto-session": { "branch": "main", "commit": "64dc86e43c85f0062baafb0b607a6162efc99c91" },
   "bufferline.nvim": { "branch": "main", "commit": "64e2c5def50dfd6b6f14d96a45fa3d815a4a1eef" },
   "lazy.nvim": { "branch": "main", "commit": "31ddbea7c10b6920c9077b66c97951ca8682d5c8" },
+  "lualine.nvim": { "branch": "master", "commit": "b5e8bb642138f787a2c1c5aedc2a78cb2cebbd67" },
   "nvim-tree.lua": { "branch": "master", "commit": "d8d3a1590a05b2d8b5eb26e2ed1c6052b1b47a77" },
   "nvim-web-devicons": { "branch": "master", "commit": "3ee60deaa539360518eaab93a6c701fe9f4d82ef" },
   "plenary.nvim": { "branch": "master", "commit": "8aad4396840be7fc42896e3011751b7609ca4119" },
