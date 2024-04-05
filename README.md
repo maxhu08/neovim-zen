@@ -6,7 +6,7 @@ my zen neovim setup
 
 to setup run these commands (Linux/MacOS):
 
-```
+```shell
 mv ~/.config/nvim{,.bak}
 
 # optional
