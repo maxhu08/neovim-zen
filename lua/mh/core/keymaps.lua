@@ -18,8 +18,8 @@ keymap.set("n", "<leader>sv", "<C-w>=", { desc = "make windows equal size" })
 keymap.set("n", "<leader>sl", "<cmd>close<CR>", { desc = "close current split" })
 
 -- tab management
-keymap.set("n", "<leader>to", "<cmd>tabnew<CR>", { desc = "open new tab" })
+keymap.set("n", "<leader>tt", "<cmd>tabnew<CR>", { desc = "open new tab" })
 keymap.set("n", "<leader>tl", "<cmd>tabclose<CR>", { desc = "close current tab" })
-keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "go to next tab" })
-keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "go to prev tab" })
+keymap.set("n", "L", "<cmd>tabn<CR>", { desc = "go to next tab" })
+keymap.set("n", "H", "<cmd>tabp<CR>", { desc = "go to prev tab" })
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "open current buffer in new tab" })
