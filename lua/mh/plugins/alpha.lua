@@ -25,7 +25,7 @@ return {
       dashboard.button("e", "  new file", "<cmd>ene<CR>"),
       dashboard.button("SPC e", "  file explorer", "<cmd>NvimTreeToggle<CR>"),
       dashboard.button("SPC f", "󰱼  find file", "<cmd>Telescope find_files<CR>"),
-      dashboard.button("SPC c", "  config", [[lua require("lazyvim.util").telescope.config_files()()]]),
+      dashboard.button("SPC c", "  config", [[<cmd>lua require('telescope.builtin').find_files({ prompt_title = "Neovim Config", cwd = "~/.config/nvim/" })<CR>]]),
       dashboard.button("SPC s", "󰁯  restore session", "<cmd>SessionRestore<CR>"),
       dashboard.button("q", "  quit", "<cmd>qa<CR>"),
     }
