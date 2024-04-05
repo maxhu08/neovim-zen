@@ -34,3 +34,6 @@ opt.clipboard:append("unnamedplus")
 -- splitting windows
 opt.splitright = true
 opt.splitbelow = true
+
+-- hide ~ on empty line
+opt.fillchars = { eob = " " }
