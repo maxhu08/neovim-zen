@@ -12,6 +12,10 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require("lazy").setup("mh.plugins", {
+  checker = {
+    enabled = true,
+    notifty = false
+  },
   change_detection = {
     notify = false
   }
