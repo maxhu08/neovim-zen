@@ -7,9 +7,10 @@ my zen neovim setup
 to setup run these commands (Linux/MacOS):
 
 ```shell
+# backup old neovim config
 mv ~/.config/nvim{,.bak}
 
-# optional
+# optional backup
 mv ~/.local/share/nvim{,.bak}
 mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
