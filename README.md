@@ -1,10 +1,23 @@
 # neovim-zen
 
-my zen neovim setup 
+my zen neovim setup
 
 ### quick-start
 
-to setup run these commands (Linux/MacOS):
+requirements:
+
+- a true color font (e.g. kitty)
+- a nerd font (like ttf-firacode-nerd)
+- nodejs and npm
+- ripgrep
+
+install required programs (for arch):
+
+```
+paru -S kitty ttf-fira-code ttf-firacode-nerd nodejs npm ripgrep
+```
+
+then setup by running these commands (Linux/MacOS):
 
 ```shell
 # backup old neovim config
