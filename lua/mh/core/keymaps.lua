@@ -7,7 +7,12 @@ keymap.set("i", "kj", "<Esc>")
 
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "clear search highlights" })
 
--- increment or decrement numbers  
+-- J to move the current line down
+vim.keymap.set("n", "J", ":m .+1<CR>==", { desc = "move line down", noremap = true, silent = true })
+-- K to move the current line up
+vim.keymap.set("n", "K", ":m .-2<CR>==", { desc = "move line up", noremap = true, silent = true })
+
+-- increment or decrement numbers
 keymap.set("n", "<leader>+", "<C-a>", { desc = "increment number" })
 keymap.set("n", "<leader>-", "<C-a>", { desc = "decrement number" })
 
