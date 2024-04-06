@@ -5,11 +5,16 @@ local keymap = vim.keymap
 -- normal mode
 keymap.set("i", "kj", "<Esc>")
 
+-- save file with ctrl-s
+vim.api.nvim_set_keymap("n", "<C-s>", ":w<CR>", { noremap = true })
+vim.api.nvim_set_keymap("i", "<C-s>", "<C-o>:write<CR>a", { noremap = true })
+
+-- for clearing highlight on search
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "clear search highlights" })
 
 -- J to move the current line down
 vim.keymap.set("n", "J", ":m .+1<CR>==", { desc = "move line down", noremap = true, silent = true })
--- K to move the current line up
+-- K to move the current line up (use g? to show docs for something)
 vim.keymap.set("n", "K", ":m .-2<CR>==", { desc = "move line up", noremap = true, silent = true })
 
 -- increment or decrement numbers
