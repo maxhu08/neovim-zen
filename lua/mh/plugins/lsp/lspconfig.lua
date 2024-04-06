@@ -42,7 +42,7 @@ return {
 				keymap.set("n", "gt", "<cmd>Telescope lsp_type_definitions<CR>", opts) -- show lsp type definitions
 
 				opts.desc = "see available code actions"
-				keymap.set({ "n", "v" }, "<leader>ca", vim.lsp.buf.code_action, opts) -- see available code actions, in visual mode will apply to selection
+				keymap.set({ "n", "v" }, "<C-.>", vim.lsp.buf.code_action, opts) -- see available code actions, in visual mode will apply to selection
 
 				opts.desc = "smart rename"
 				keymap.set("n", "<leader>srn", vim.lsp.buf.rename, opts) -- smart rename
