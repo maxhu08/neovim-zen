@@ -2,6 +2,8 @@
 
 my zen neovim setup
 
+see https://maxhu.dev/neovim-zen for more info
+
 ### quick-start
 
 requirements:
