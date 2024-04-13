@@ -4,11 +4,13 @@ my zen neovim setup
 
 see https://maxhu.dev/neovim-zen for more info
 
+![screenshot](https://maxhu.dev/assets/neovim-zen/1.png)
+
 ### quick-start
 
 requirements:
 
-- a true color font (e.g. kitty)
+- a true color terminal (e.g. kitty)
 - a nerd font (like ttf-firacode-nerd)
 - nodejs and npm
 - ripgrep
