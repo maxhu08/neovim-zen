@@ -1,5 +1,7 @@
 # neovim-zen
 
+> **WARNING** This is my old neovim config and will not be updated. To see get my up to date neovim config check out my new dotfiles repo managed with gnu stow at https://github.com/maxhu08/dotfiles
+
 my zen neovim setup
 
 see https://maxhu.dev/neovim-zen for more info
